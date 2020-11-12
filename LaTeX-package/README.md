@@ -1,9 +1,9 @@
 ---
 package_name: "LaTeX-package"
 package_title: "LaTeX Package"
-package_desc: "A simple package to say Hello World."
+package_desc: "A package for all the LaTeX stuff that I would like to do faster"
 package_version: "0.1.0"
 package_author: "Johanne"
-package_repo: "https://github.com/federico-terzi/espanso-package-example"
+package_repo: "https://github.com/Joe3151512/Espanso-packages/tree/master/LaTeX-package"
 ---
-A simple package to say "Hello World"
+A package for LaTeX and love. 
