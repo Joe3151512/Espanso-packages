@@ -1,8 +1,0 @@
-# LaTeX Package
-
-name: LaTex-package 
-parent: default
-
-matches:
-  - trigger: ":hw"
-    replace: "hello world"
