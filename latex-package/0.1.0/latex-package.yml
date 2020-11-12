@@ -6,3 +6,7 @@ parent: default
 matches:
   - trigger: ":hw"
     replace: "hello world"
+    
+  # Get a fraction   
+  - trigger: ":dfrac"
+    replace: "\\dfrac{$|$}{}"
