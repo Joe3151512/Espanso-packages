@@ -1,12 +1,52 @@
-# Simple package
+# latex-pacakge
 
-name: simple-package 
+name: latex-package
 parent: default
 
 matches:
-  - trigger: ":hw"
-    replace: "hello world"
-    
-  # Get a fraction   
+# math
+  # Get a fraction
+  - trigger: ":frac"
+    replace: "\\frac{$|$}{}"
+
+  # Get a dfraction
   - trigger: ":dfrac"
     replace: "\\dfrac{$|$}{}"
+
+  # Get a text
+  - trigger: ":txt"
+    replace: "\\text{$|$}"
+
+  # Cases
+  - trigger: ":cases"
+    replace: "$$\n\\begin{cases}\n$|$&\\text{for }\\\\\nb &\\text{for }\n\\end{cases}\n$$"
+
+  # left arrow
+  - trigger: ":<-"
+    replace: "\\leftarrow"
+
+  # right arrow
+  - trigger: ":->"
+    replace: "\\rightarrow"
+
+  # fat left arrow
+  - trigger: ":<="
+    replace: "\\Leftarrow"
+
+  # fat right arrow
+  - trigger: ":=>"
+    replace: "\\Rightarrow"
+
+  # left and right arrow
+  - trigger: ":<->"
+    replace: "\\leftrightarrow"
+
+  # fat left and right arrow
+  - trigger: ":<=>"
+    replace: "\\Leftrightarrow"
+
+# style
+  #
+  - trigger: ":dfrac"
+    replace: "\\dfrac{$|$}{}"
+
