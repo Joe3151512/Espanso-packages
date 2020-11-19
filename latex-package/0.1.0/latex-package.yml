@@ -45,8 +45,15 @@ matches:
   - trigger: ":<=>"
     replace: "\\Leftrightarrow"
 
+  # cdot
+  - trigger: ":."
+    replace: "\\cdot"
+
+  # modulo
+  - trigger: ":mod"
+    replace: "\\equiv"
+
 # style
   #
   - trigger: ":dfrac"
     replace: "\\dfrac{$|$}{}"
-
